@@ -1,0 +1,61 @@
+.form {
+  width: 400px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: black;
+}
+
+.input {
+  width: 80%;
+  margin-left: 26px;
+  outline: none;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.input:hover,
+.input:focus {
+  border: 1px solid blue;
+}
+
+.input_number {
+  width: 80%;
+  margin-left: 10px;
+  outline: none;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+}
+.input_number:hover,
+.input_number:focus {
+  border: 1px solid blue;
+}
+.button {
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px 6px;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+}
+.button:hover,
+.button:focus {
+  border: 1px solid blue;
+  color: blue;
+}

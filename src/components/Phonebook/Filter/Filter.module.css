@@ -1,0 +1,22 @@
+.label {
+  width: 400px;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: black;
+}
+.input {
+  width: 80%;
+  margin-left: 23px;
+  outline: none;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.input:hover,
+.input:focus {
+  border: 1px solid blue;
+}

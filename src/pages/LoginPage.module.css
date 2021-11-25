@@ -1,0 +1,63 @@
+.container {
+  width: 360px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.form {
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.input {
+  outline: none;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+.input:hover,
+.input:focus {
+  border: 2px solid blue;
+}
+.btn {
+  display: block;
+  padding: 2px 20px;
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+.btn:hover,
+.btn:focus {
+  border: 2px solid blue;
+}
+.text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* text-align: center; */
+  font-size: 16px;
+  text-align: center;
+}
+
+.link {
+  color: black;
+}
+
+.link:hover,
+.link:focus {
+  color: blue;
+}

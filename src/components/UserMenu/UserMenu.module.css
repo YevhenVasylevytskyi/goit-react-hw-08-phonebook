@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.text {
+  margin-left: 10px;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+.btn {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  padding: 4px 6px;
+  color: black;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 500;
+}
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+  color: blue;
+  border: 2px solid blue;
+}
