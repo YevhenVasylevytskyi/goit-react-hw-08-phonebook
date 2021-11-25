@@ -1,12 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import ContactsIcon from '@mui/icons-material/Contacts';
 import style from './HomePage.module.css';
 
 function Home() {
   return (
     <div>
-      <p className={style.text}>
-        <ContactsIcon fontSize="large" />
+      <p className={style.text}>        
         <br />
         <NavLink to="/login" className={style.link}>
           Log in
